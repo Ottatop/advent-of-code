@@ -1,6 +1,8 @@
 const INPUT: &str = include_str!("input.txt");
 
 fn main() {
+    // Part 1
+
     let races = parse_input_part_1();
 
     let result = races
@@ -10,6 +12,8 @@ fn main() {
         .unwrap();
 
     println!("Part 1: The answer is {result}.");
+
+    // Part 2
 
     let answer = win_count(parse_input_part_2());
 
